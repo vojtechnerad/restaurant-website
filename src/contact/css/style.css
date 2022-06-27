@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.contact-icon img {
+    width: 20px;
+    margin-top: 4px;
+}
+
+.contact-icon {
+    width: 30px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.contact-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-wrapper {    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    width: 90%;    
+    margin: auto;
+}
+
+.content-wrapper section {    
+    min-width: fit-content;
+    height: 250px;    
+    margin: auto;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.content-wrapper section * {    
+    font-size: 20px;
+}
+
+.content-wrapper a {
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+}
+
+.map {
+    width: 90%;    
+    margin: auto;
+}
+
+iframe {
+    width: 100%;
+}

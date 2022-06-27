@@ -1,0 +1,119 @@
+main h1 {
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;    
+    margin: 5px;
+}
+
+.items-wrapper {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    font-size: 25px;    
+    padding: 5px;
+    bottom: 20px;
+    background-color: #f2f2f2;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.item .serving {
+    width: 10%;
+    min-width: fit-content;
+    
+}
+
+.item .item-wrapper {
+    width: 80%;
+    padding: 0px 20px;
+    
+}
+
+.item .price {
+    width: 10%;
+    min-width: fit-content;
+    
+}
+
+.description {
+    font-size: 20px;
+    color: grey;
+    font-style: italic;
+}
+
+.item .serving, .item .price {
+    margin: auto;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .items-wrapper {
+        width: 99%;
+    }
+}
+
+.title-container .title-image{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    color: white;        
+}
+
+.title-image h2 {
+    padding: 15px;
+    font-size: 30px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;        
+}
+
+.starters { background-image: url(../assets/textures/toast.jpg); }
+.soups { background-image: url(../assets/textures/soup.jpg); }
+.salad { background-image: url(../assets/textures/salad.jpg); }
+.chicken { background-image: url(../assets/textures/chicken.jpg); }
+.meatless { background-image: url(../assets/textures/meatless.jpg); }
+.pizza { background-image: url(../assets/textures/pizza.jpg); }
+.burger { background-image: url(../assets/textures/burger.jpg); }
+.cake { background-image: url(../assets/textures/cake.jpg); }
+.pie { background-image: url(../assets/textures/pie.jpg); }
+.pancake { background-image: url(../assets/textures/pancake.jpg); }
+.ice-cream { background-image: url(../assets/textures/icecream.jpg); }
+.cold-beverages { background-image: url(../assets/textures/cold-beverages.jpg); }
+.coffee { background-image: url(../assets/textures/coffee.jpg); }
+.tea { background-image: url(../assets/textures/tea.jpg); }
+.beer { background-image: url(../assets/textures/beer.jpg); }
+.wine { background-image: url(../assets/textures/wine.jpg); }
+.liquor { background-image: url(../assets/textures/liquor.jpg); }
+
+@media print {
+    .title-image h2 {        
+        text-shadow: none;
+        color: black;
+    }
+
+    .starters { background-image: none; }
+    .soups { background-image: none; }
+    .salad { background-image: none; }
+    .chicken { background-image: none; }
+    .meatless { background-image: none; }
+    .pizza { background-image: none; }
+    .burger { background-image: none; }
+    .cake { background-image: none; }
+    .pie { background-image: none; }
+    .pancake { background-image: none; }
+    .ice-cream { background-image: none; }
+    .cold-beverages { background-image: none; }
+    .coffee { background-image: none; }
+    .tea { background-image: none; }
+    .beer { background-image: none; }
+    .wine { background-image: none; }
+    .liquor { background-image: none; }
+}

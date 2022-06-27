@@ -1,0 +1,98 @@
+@import url(./navbar.css);
+@import url(./footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ededed;
+  background-image: url(../assets/background.svg);
+  background-size: 300px;
+  margin: 0px;
+}
+
+.container {
+  max-width: 1280px;
+  min-width: 660px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px 0px gray;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  padding-bottom: 15px;
+}
+
+.logo-text, .logo-plate {
+  margin: auto;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.logo-text {
+  color: black;
+  font-size: 80px;
+  font-family: 'Norican', cursive;
+  min-width: 570px;
+  margin-bottom: -20px;
+  margin-top: -5px;
+}
+
+.logo-plate {   
+  background: url(../assets/plate.svg) no-repeat center;  
+  background-size: 570px;
+  height: 40px;
+  width: 570px;
+}
+
+.logo-fork {
+  background: url(../assets/fork.svg) no-repeat center;
+}
+
+.logo-knife {
+  background: url(../assets/knife.svg) no-repeat center;
+}
+
+.logo-fork, .logo-knife {
+  background-size: 200px;
+  width: 200px;
+  height: 100px;
+}
+
+.logo-cutlery-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .logo-cutlery-wrapper {
+    width: 0%;
+  }
+  .logo-wrapper {
+    width: 100%;
+  }
+}
+
+@media print {
+  body {
+    background-color: white;
+  }
+
+  .container {
+    box-shadow: none;
+  }  
+}

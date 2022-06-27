@@ -1,0 +1,28 @@
+main {
+    background-image: url(../assets/restaurant.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;;
+}
+
+.introductory-header {   
+    text-align: center;
+    padding: 50px;
+    width: fit-content;
+    height: fit-content;
+    background-color:rgba(0, 0, 0, 0.8);    
+    border-radius: 40px;
+}
+
+@media print {
+    h1 {
+        color: black;
+      }
+}

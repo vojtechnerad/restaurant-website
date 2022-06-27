@@ -1,0 +1,24 @@
+.secondary-navbar-wrapper {
+    width: 100%;
+    height: fit-content;
+    background-color: #dedede;
+    display: flex;
+}
+
+.secondary-navbar-wrapper .navbar-item a {
+    font-size: 20px;           
+}
+
+.secondary-navbar-wrapper .navbar-item .active {
+    color: #c46c00;
+}
+
+.secondary-navbar-wrapper .navbar-item a:hover {        
+    color: #c46c00;
+}
+
+@media only screen and (max-width: 720px) {
+    .secondary-navbar-wrapper .navbar-item {
+        padding: 15px;
+    }
+}
